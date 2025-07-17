@@ -37,7 +37,6 @@ string Compress(string str)
 
 string Decompress(string str)
 {
-    //проверка пустой строки
     if (string.IsNullOrEmpty(str))
         return str;
 
